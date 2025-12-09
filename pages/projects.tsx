@@ -13,6 +13,6 @@ export async function getStaticProps() {
 
   return {
     props: { projects },
-    revalidate: 60, // optional ISR, rebuild every 60s
+    revalidate: 10, // optional ISR, rebuild every 10s
   };
 }
